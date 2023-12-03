@@ -125,7 +125,7 @@ function Members({ posts }) {
                   />
                 </span>
                 <span className={styles.nameSpan}>
-                  {user.id}.{user.name}
+                  {user.name}
                 </span>
                 <span className={styles.emailSpan}>{user.email}</span>
                 <span className={styles.roleSpan}>{user.role}</span>
