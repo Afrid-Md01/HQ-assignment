@@ -1,0 +1,161 @@
+.content {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 0.5rem;
+}
+
+.content ul {
+  height: 100%;
+  width: 100%;
+}
+
+.content ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding: 0.5rem 2rem;
+}
+
+
+.content ul li:last-child {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border: none;
+  padding: 1rem 2rem;
+}
+
+.input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: medium;
+  width: 70%;
+}
+
+.headingcheckboxSpan {
+  padding: 0rem 2rem;
+}
+
+.headingnameSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25rem;
+  color: gray;
+  font-weight: 500;
+  font-size: large;
+  opacity: 0.75;
+}
+
+.headingemailSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
+  color: gray;
+  font-weight: 500;
+  font-size: large;
+  opacity: 0.75;
+}
+
+.headingroleSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15rem;
+  color: gray;
+  font-weight: 500;
+  font-size: large;
+  opacity: 0.75;
+}
+
+.headingactionsSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: gray;
+  font-weight: 500;
+  font-size: large;
+  opacity: 0.75;
+}
+
+.checkboxSpan {
+  padding: 0.5rem 2rem;
+  font-size: large;
+}
+
+.checkbox{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.nameSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25rem;
+  padding: 0.5rem 0rem;
+}
+
+.emailSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
+  padding: 0.5rem 0rem;
+}
+.roleSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15rem;
+  padding: 0.5rem 0rem;
+}
+.actionsSpan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  padding: 0.5rem 0rem;
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: inherit;
+  border: 2px solid rgb(200, 200, 200);
+  padding: 0.4rem 0.25rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: inherit;
+  border: 2px solid rgb(200, 200, 200);
+  padding: 0.4rem 0.25rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.delete:hover {
+  background: rgb(248, 175, 175);
+  cursor: pointer;
+  border: 2px solid rgb(248, 175, 175);
+}
+
+.trash-icon {
+  color: rgb(255, 0, 0);
+}
+
+.check-icon{
+  color: green;
+}

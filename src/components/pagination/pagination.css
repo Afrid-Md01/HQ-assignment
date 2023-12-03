@@ -1,0 +1,119 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  height: 10rem;
+}
+
+.selected{
+  color: gray;
+}
+
+.pagination {
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.preBtns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.first-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.25rem;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.skipback {
+  width: 1rem;
+  margin-right: 0.1rem;
+}
+
+.previous-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.25rem;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.pageNumbersList_items {
+  margin: 0rem 2rem;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageNumbersList_item_ {
+  height: 100%;
+  width: 100%;
+  padding: 0.1rem 0.2rem;
+  border: 1px solid gray;
+  color: red;
+}
+
+.pageNumbersList_item_active{
+  height: 100%;
+  width: 100%;
+  padding: 0.1rem 0.2rem;
+  border: 1px solid rgb(128, 128, 128);
+  background: rgb(157, 157, 255);
+  color: white;
+}
+
+.postBtns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.next-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.25rem;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.last-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.25rem;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.skipforward {
+  width: 1rem;
+  margin-right: 0.1rem;
+}
+
+.page-link{
+  border: none;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 0.1rem 0.5rem;
+}
